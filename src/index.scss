@@ -1,0 +1,258 @@
+$bg-color: #f8f8f8;
+$brown-btn: #332a2a;
+$light-brown-bg: #4a4a4a;
+$blue-bg: #3131c3;
+$warning: #ffbe18;
+$font-family: 'Roboto', sans-serif;
+
+.css-1e2bxag-MuiDataGrid-root {
+  height: 75% !important;
+}
+.css-iclwpf{
+  height: 75% !important;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn:hover {
+  background-color: #6941C6!important;
+  color: white !important;
+}
+
+.category-btn:hover span{
+  color: white !important;
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:350px;
+}
+
+.category-btn{
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 900px) {
+  .category-btn{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .copyright{
+    display:none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+}
+  .header-btn{
+    font-weight: bold !important;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 7px 15px;
+    margin-right:0.5em;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+
+  .tab-name {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 1em;
+    
+}
+.active {
+    position: relative;
+    top: 10px;
+    border-bottom: 1px solid #6941C6!important;
+}
+svg {
+  cursor: pointer;
+}
+
+.appbar {
+  &.gray {
+      background-color: $bg-color;
+  }
+  &.brown {
+      background-color: $light-brown-bg;
+      .header-title {
+          color: #fff;
+      }
+      svg {
+          path {
+              fill: #fff !important;
+          }
+      }
+  }
+  &.blue {
+      background-color: $blue-bg;
+      .header-title {
+          color: #fff;
+      }
+      svg {
+          path {
+              fill: #fff !important;
+          }
+      }
+  }
+  &.white {
+      background-color: #fff;
+      .header-title {
+          color: #000;
+      }
+      svg {
+          path {
+              fill: #000 !important;
+          }
+      }
+  }
+  &.orange {
+      background-color: $warning;
+      .header-title {
+          color: #fff;
+      }
+      svg {
+          path {
+              fill: #fff !important;
+          }
+      }
+  }
+
+  hr {
+      margin: 0;
+  }
+  
+  .header-title {
+      font-size: 14px;
+      font-weight: bold;
+      padding-top: 5px;
+  }
+}
+
+
+.card-btn{
+  width: 300px;
+
+}
+
+.table-cell-trucate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container{
+  max-width: 250px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  background: 	#E8E8E8;
+  position: relative;
+  top:100px
+}
+
+body{
+  font-family: $font-family;
+  background: none;
+ 
+}
+
+.input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+}
+
+.btn{
+  color:#fff;
+  border-radius: 20px;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color:green;
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  cursor:pointer;
+  outline: none;
+  border: none;
+
+}
+
+@media screen and (max-width: 600px) {
+  .container{
+    margin: 10px;
+     width:200px;
+  }
+  .input{
+  position: relative;
+    
+  }
+  .label{
+    position:relative
+  }
+
+}
+
+.background{
+  background: url(./Module/Images/User-bg.png);
+   background-size:contain;
+  width: 1350px;
+  height: 700px;
+}
